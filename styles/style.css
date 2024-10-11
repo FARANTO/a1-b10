@@ -128,6 +128,24 @@
     margin: 0 50px;
     flex-direction: row-reverse;
   }
+  /* Inspiration Section Styles */
+  .inspiration{
+    text-align: center;
+    margin: 40px 0;
+  }
+  .video-container {
+    display: inline-block; 
+    padding: 20px; 
+    border: 1px solid rgba(13, 19, 33, 0.20);
+    border-radius: 16px; 
+    background-color:#fff ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 10px auto; 
+  }
+  .video-container iframe {
+    border: 2px solid #000;
+    border-radius: 16px; 
+  } 
    /*Support Section Styles */
    .suggest {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url('../assets/handshake.jpg')lightgray 50% / cover no-repeat ;
