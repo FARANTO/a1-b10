@@ -112,15 +112,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
   }
   .text-con{
-    max-width: 50%;
+    width: 830px;
   }
   .text-con h3{
+    font-size: 24px;
+    font-weight: 700;
     margin-bottom:5px;
   }
   .text-con p{
+    font-size: 16px;
+    font-weight: 400;
     text-align: left;
     margin-bottom: 5px;
   }
@@ -143,11 +146,15 @@
     margin: 40px 0;
   }
   .inspiration h2{
+    font-size: 32px;
+    font-weight: 800;
     margin-bottom: 10px;
   }
   .inspiration p{
     margin-top:5px ;
     margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
   }
 
   .video-container {
@@ -167,8 +174,14 @@
     text-align: center;
     margin: 40px 80px;
   }
-  .current h2{
+  .current>h2{
+    font-size: 32px;
+    font-weight: 800;
     margin-bottom: 20px;
+  }
+  .current>p{
+    font-size: 16px;
+    font-weight: 400;
   }
   .cardscon {
     display: flex;
@@ -198,11 +211,9 @@
   }
   .card a {
     padding: 10px 20px;
-    background-color: white;
     color: black;
     text-decoration: none;
     border-radius: 5px;
-    font-weight: bold;
   }
   /* Next Section Styles */
   .next-target{
@@ -232,6 +243,8 @@
   .targetcon a{
     display: inline-block;
     padding-top: 24px;
+    font-size: 16px;
+    font-weight: 700;
   }
   /* Next Section End */
    /*Support Section Styles */
