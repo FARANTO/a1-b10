@@ -136,6 +136,10 @@
   .inspiration h2{
     margin-bottom: 10px;
   }
+  .inspiration p{
+    margin-top:5px ;
+    margin-bottom: 10px;
+  }
 
   .video-container {
     display: inline-block; 
@@ -192,7 +196,35 @@
     border-radius: 5px;
     font-weight: bold;
   }
-  
+  /* Next Section Styles */
+  .next-target{
+    text-align: center;
+    margin: 60px 0;
+  }
+  .target{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    height: 219px;
+    background-color: #f5f5f5;
+    padding: 40px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .targetcon{
+    text-align: left;
+    flex-grow: 1;
+    margin-left: 20px;
+  }
+  .targetcon h2{
+    margin-bottom: 10px;
+  }
+  .targetcon a{
+    display: inline-block;
+    padding-top: 24px;
+  }
    /*Support Section Styles */
    .suggest {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%),url('../assets/handshake.jpg')lightgray 50% / cover no-repeat ;
