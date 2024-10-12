@@ -87,8 +87,14 @@
   }
   /* Web development Section Styles */
   .web-development{
-    text-align: center;
-    margin-bottom: 40px;
+    align-items: center;
+    margin-top: -100px;
+    margin-left: 148px;
+    margin-right: 152px;
+    border: 1px solid rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
   }
   .web-development h2{
     margin-bottom: 10px;
@@ -97,13 +103,16 @@
     line-height: 1.6;
   }
   .part-one{
+    border: 1px solid linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    border-radius: 16px;
+    background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
     margin-bottom: 40px;
   }
   .con{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 180px;
+    padding: 5px;
   }
   .text-con{
     max-width: 50%;
@@ -142,12 +151,11 @@
   }
 
   .video-container {
-    display: inline-block; 
+    display: inline-block;
     padding: 20px; 
     border: 1px solid rgba(13, 19, 33, 0.20);
     border-radius: 16px; 
     background-color:#fff ;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     margin: 10px auto; 
   }
   .video-container iframe {
@@ -225,6 +233,7 @@
     display: inline-block;
     padding-top: 24px;
   }
+  /* Next Section End */
    /*Support Section Styles */
    .suggest {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%),url('../assets/handshake.jpg')lightgray 50% / cover no-repeat ;
